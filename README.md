@@ -21,5 +21,6 @@
 <img width="299" alt="스크린샷 2023-06-23 오후 11 01 22" src="https://github.com/bmr03016/html-practice/assets/115970361/4c02cd5d-5834-46c4-b86d-b320e6866f6a">
 <ul>
   <li>ul, li 사용하여 메뉴 구현</li>
-  <li>배경이미지 style활용해 삽입 <- background-size 조정하니 연속된 사진이 나와 background-repeat에 no-repeat으로 설정</li>
+  <li>배경이미지 style활용해 삽입</li>
+  <li>👉background-size 조정하니 연속된 사진이 나와 background-repeat에 no-repeat으로 설정</li>
 </ul>
