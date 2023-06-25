@@ -1,0 +1,76 @@
+:root {
+    --body-bg: red;
+    --hamburger-bg: red;
+}
+html,
+body{
+    height: 100%;
+}
+body{
+    background: var(--body-bg); /* 속성값(red) 반환 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* 생성 방향 아래로*/
+}
+.title{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.container{
+    display: inline-block; /* container 어디든지 클릭하면 checkbox를 클릭한 것과 같은 효과를 주기 위해 사용 */
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: var(--hamberger-bg);
+}
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    position: absolute; /* position값을 설정하여 움직일 기준을 지정*/
+    width: 100%;
+    height: 10px;
+    background-color: white;
+    transition: 0.5s; /* 변화가 0.5초 동안일어나서 효과 발생함*/
+}
+
+/* 해당 요소가 있어야지 복사 가능*/
+.hamburger::before,
+.hamburger::after{
+    content: "";
+}
+
+/* 복사 대상(hamburger)과 복사된 요소(가상 선택자) 위치를 이동하여 세 줄 형태로 만들기*/
+/* 중앙 */
+.hamburger {
+    top: 50%;
+}
+/* 위 */
+.hamburger::before {
+    top: -30px;
+}
+/* 아래 */
+.hamburger::after {
+    top: 30px;
+}
+
+/* '\'로 변환 
+top:0 부모인 햄버거를 기준으로 상단 배치 */
+.toggle:checked ~ .hamburger::after { 
+    top:0;
+    transform: rotate(225deg);
+}
+/* '/'로 변환 */
+.toggle:checked ~ .hamburger::before{
+    top:0;
+    transform: rotate(135deg);
+}
+/* 안보이게 하기 위해 배경 색상으로 변경 */
+.toggle:checked ~ .hamburger{
+    background: var(--hamberger-bg);
+}
+/* 체크박스 투명하게*/
+.toggle {
+    opacity: 0;
+}
