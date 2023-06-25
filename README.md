@@ -1,10 +1,11 @@
 # html-practice
 프론트엔드로 넘어가는 기회가 생기게 되서 주말동안 html, css 기초들을 다시 되짚어보려한다.
+<br />
 <p></p>
 <br />
 📌 <비전공자를 위한 첫 코딩 챌린지> 저서
-<br />
-해당 저서를 읽으면서 안에 있는 미니 코딩 챌린지와 프로젝트를 해볼 예정...! (주말만에 끝내볼 수 있겠지..?)
+<p></p>
+🚨 해당 repository는 제 연습용이기에 코드는 서적의 풀이와 다를 수 있습니다.
 
 <br />
 <br />
@@ -50,3 +51,15 @@
 <ul>
   <li>profile-image, follow-btn 마우스 이동 시 좀 더 커지는 효과</li>
 </ul>
+<br />
+
+## newflix.html
+<img width="400" height="600" alt="스크린샷 2023-06-25 오후 7 18 55" src="https://github.com/bmr03016/html-practice/assets/115970361/73607985-c587-437b-b1a3-c179e30d9400">
+<ul>
+  <li>로그인폼 구현(required, autocomplete="off"</li>
+  <li>구글 폰트 끌어오기</li>
+  <li>global.css(reset.css, variable.css), login.css </li>
+  <li>ID와 PASSWORD 입력 스타일, 애니메이션 적용</li>
+  <li>'접속하기' 누르면 더 밝은 purle색으로 변환</li>
+</ul>
+
