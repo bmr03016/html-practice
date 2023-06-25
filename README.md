@@ -58,7 +58,7 @@
   <li>로그인폼 구현(required, autocomplete="off"</li>
   <li>구글 폰트 끌어오기</li>
   <li>global.css(reset.css, variable.css), login.css </li>
-  <Li>ID와 PASSWORD 입력 스타일, 애니메이션 적용</Li>
-  <ㅣi>'접속하기' 누르면 더 밝은 purle색으로 변환</ㅣi>
+  <li>ID와 PASSWORD 입력 스타일, 애니메이션 적용</li>
+  <li>'접속하기' 누르면 더 밝은 purle색으로 변환</li>
 </ul>
 
