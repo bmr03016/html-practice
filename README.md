@@ -34,3 +34,12 @@
   <li>자식 태그 이용하여 nav, article </li>
   <li>display, jusity-content, align-items을 이용해 center로 배치</li>
 </ul>
+<br />
+
+## myhamburger.html
+<img width="265" alt="스크린샷 2023-06-25 오전 10 43 37" src="https://github.com/bmr03016/html-practice/assets/115970361/247735db-1071-4e46-9a77-eb857bc3d46c">
+<img width="249" alt="스크린샷 2023-06-25 오전 10 43 47" src="https://github.com/bmr03016/html-practice/assets/115970361/cd68f595-0ae4-4bfd-a298-c2b751c9f3ca">
+<ul>
+  <li> 기본:타이틀과 햄버거가 나타나고 👉 클릭시: 3장이던 햄버거가 X로 화면 전환 (클릭할 때마다 기본화면, 클릭화면 번갈아 일어남)</li>
+  <li> 사용자 지정 속성, before과 after을 통한 화면 전환, label을 이용한 checkbox 활용...</li>
+</ul>
