@@ -50,3 +50,15 @@
 <ul>
   <li>profile-image, follow-btn 마우스 이동 시 좀 더 커지는 효과</li>
 </ul>
+<br />
+
+## newflix.html
+<img width="400" height="600" alt="스크린샷 2023-06-25 오후 7 18 55" src="https://github.com/bmr03016/html-practice/assets/115970361/73607985-c587-437b-b1a3-c179e30d9400">
+<ul>
+  <li>로그인폼 구현(required, autocomplete="off"</li>
+  <li>구글 폰트 끌어오기</li>
+  <li>global.css(reset.css, variable.css), login.css </li>
+  <Li>ID와 PASSWORD 입력 스타일, 애니메이션 적용</Li>
+  <ㅣi>'접속하기' 누르면 더 밝은 purle색으로 변환</ㅣi>
+</ul>
+
