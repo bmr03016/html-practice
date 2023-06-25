@@ -1,0 +1,21 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import "./variable.css";
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: var(--body-bg);
+    color: white;
+}
+
+/* 모든 요소를 화면 안에 포함시킴 
+-- 오류 방지용 */
+* {
+    box-sizing: border-box;;
+}
+
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
