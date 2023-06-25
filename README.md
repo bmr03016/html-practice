@@ -43,3 +43,10 @@
   <li> 기본:타이틀과 햄버거가 나타나고 👉 클릭시: 3장이던 햄버거가 X로 화면 전환 (클릭할 때마다 기본화면, 클릭화면 번갈아 일어남)</li>
   <li> 사용자 지정 속성, before과 after을 통한 화면 전환, label을 이용한 checkbox 활용...</li>
 </ul>
+<br />
+
+## profile.html
+<img width="500" alt="스크린샷 2023-06-25 오후 12 39 18" src="https://github.com/bmr03016/html-practice/assets/115970361/23a49e58-5def-4605-a04c-bbb79acd78c0">
+<ul>
+  <li>profile-image, follow-btn 마우스 이동 시 좀 더 커지는 효과</li>
+</ul>
