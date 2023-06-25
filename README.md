@@ -24,3 +24,13 @@
   <li>배경이미지 style활용해 삽입</li>
   <li>👉background-size 조정하니 연속된 사진이 나와 background-repeat에 no-repeat으로 설정</li>
 </ul>
+<br />
+
+
+## boxlayout.html
+<img width="387" alt="스크린샷 2023-06-25 오전 9 56 33" src="https://github.com/bmr03016/html-practice/assets/115970361/81349c93-6d85-40db-86f3-158e49d333c0">
+<ul>
+  <li>layout에 대한 개념잡기</li>
+  <li>자식 태그 이용하여 nav, article </li>
+  <li>display, jusity-content, align-items을 이용해 center로 배치</li>
+</ul>
